@@ -11,5 +11,5 @@ jobs:
     steps:
       - uses: austenstone/chatgpt-bot@main
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
